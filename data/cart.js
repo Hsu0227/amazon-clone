@@ -1,1 +1,1 @@
-const carts = [];
+export const carts = [];
