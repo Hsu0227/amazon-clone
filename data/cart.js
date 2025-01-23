@@ -13,6 +13,15 @@ if (!carts) {
   ];
 }
 
+export function calculateCartQuantity() {
+  let cartQuantity = 0;
+  carts.forEach((cartItem) => {
+    cartQuantity += cartItem.quantity;
+  });
+
+  return cartQuantity;
+}
+
 function saveToStorage() {
   localStorage.setItem("cart", JSON.stringify(carts));
 }
