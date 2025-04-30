@@ -102,8 +102,9 @@ class Cart {
     };
 }
 
-const carts = new Cart('cart-oop');
+/*const carts = new Cart('cart-oop');
 const businessCart = new Cart('cart-business');
 
 console.log(carts);
-console.log(businessCart);
+console.log(businessCart);*/
+export default Cart;
